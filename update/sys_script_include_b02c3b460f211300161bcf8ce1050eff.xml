@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_116103_gittest.extendedAPI</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>extendedAPI</name>
+        <script><![CDATA[var extendedAPI = Class.create();
+extendedAPI.prototype = Object.extendsObject(x_116103_gittest.baseAPI, {
+
+	myExtentionOnTheAPI: function() {
+		
+	},
+	
+    type: 'extendedAPI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-20 11:29:27</sys_created_on>
+        <sys_id>b02c3b460f211300161bcf8ce1050eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>extendedAPI</sys_name>
+        <sys_package display_value="gittest" source="x_116103_gittest">0f86bb064f6113001e6b2b8ca310c703</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="gittest">0f86bb064f6113001e6b2b8ca310c703</sys_scope>
+        <sys_update_name>sys_script_include_b02c3b460f211300161bcf8ce1050eff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-20 11:29:27</sys_updated_on>
+    </sys_script_include>
+</record_update>
