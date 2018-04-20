@@ -16,19 +16,23 @@ TestNew.prototype = {
 		
 	},
 	
+	update:function() {
+		
+	},
+	
     type: 'TestNew'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-20 11:56:55</sys_created_on>
         <sys_id>5d928c9a0f211300161bcf8ce1050e61</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>TestNew</sys_name>
         <sys_package display_value="gittest" source="x_116103_gittest">0f86bb064f6113001e6b2b8ca310c703</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="gittest">0f86bb064f6113001e6b2b8ca310c703</sys_scope>
         <sys_update_name>sys_script_include_5d928c9a0f211300161bcf8ce1050e61</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-20 12:29:49</sys_updated_on>
+        <sys_updated_on>2018-04-20 12:45:34</sys_updated_on>
     </sys_script_include>
 </record_update>
